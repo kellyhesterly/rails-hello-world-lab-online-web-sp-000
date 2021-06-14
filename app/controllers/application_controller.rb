@@ -4,6 +4,6 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   def about
-    "some page"
+    "some_page"
   end
 end
